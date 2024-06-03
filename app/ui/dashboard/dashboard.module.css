@@ -1,0 +1,15 @@
+.container {
+ display: flex;
+}
+.menu {
+ flex: 1; 
+ position: sticky;
+ background-color: var(--bgSoft);
+}
+
+.content {
+ flex: 4;
+ padding: 15px 20px;
+ max-height:100vh ;
+ overflow: auto;
+}
